@@ -1,2 +1,6 @@
-# jogger-map
-color-code manhattan streets according to jogger preference
+### Color-code Manhattan streets according to jogger preferences
+
++ Summary: 
+This application lets the user define preferences for streets for jogging and color-codes street segements accordingly. As of now, the user can choose the relative importance of two variables: density of trees and flatness of the path (more variables to come). The app also displays nearby water fountains and public restrooms.
+
+###[See app](http://54.187.176.193/ubuntu/jogger-map/app/)
