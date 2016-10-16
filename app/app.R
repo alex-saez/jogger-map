@@ -19,7 +19,7 @@ ui <- bootstrapPage(
                 top = 10, right = 10,
                 h3("Select preferences"),
                 sliderInput("tree", "   Trees:", min=1, max=100, value=50),
-                sliderInput("slope", label = "   Slope:", min=1, max=100, value=50),
+                sliderInput("slope", label = "   Flatness:", min=1, max=100, value=50),
                 hr(),
                 checkboxInput("show_restrooms", "Show restrooms", FALSE),
                 checkboxInput("show_fountains", "Show fountains", FALSE),
