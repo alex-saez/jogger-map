@@ -1,4 +1,4 @@
-### Color-code Manhattan streets according to jogger preferences
+### Color-coding Manhattan streets according to jogger preferences
 
 + Summary: 
 This application lets the user define preferences for streets for jogging and color-codes street segements accordingly. As of now, the user can choose the relative importance of two variables: density of trees and flatness of the path (more variables to come). The app also displays nearby water fountains and public restrooms.
