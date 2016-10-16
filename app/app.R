@@ -35,7 +35,7 @@ server <- function(input, output, session) {
   colors = colorRamp(c("red", "black", "green"))
   map = leaflet() %>%
     addTiles() %>%
-    setView(lng = -73.96, lat = 40.81, zoom = 16) %>%
+    setView(lng = -73.975, lat = 40.766, zoom = 16) %>%
     addLegend(position = "bottomright", pal = colorFactor(colors, levels=c('worse', 'neutral','better')), c('better', 'neutral','worse'))
 
   
